@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,10 +10,9 @@
 <body>
    <ul> 
     <?php 
-
-    for ($i=1; $i < 41; $i=$i+2) { 
+        for ($i=1; $i < 41; $i=$i+2) { 
             echo "<li>$i</li>";
-            if (($i>=39)&&($i<=41)) {
+            if (($i>=39)) {
                echo "<li>...</li>";
             }
         
